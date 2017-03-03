@@ -1,25 +1,75 @@
 package clases;
 
+/**
+ * Crea un objeto calculadora que realiza ciertas operaciones matemáticas.
+ * 
+ * @author ClaraR
+ * @version 1.0
+ *
+ */
 public class Calculadora {
 
-	private int num1 = 2;
-	private int num2 = 3;
-
-	public Calculadora() {
-		
-	}
 	
-	public int suma (int x, int y){
-		return x + y;
-		
+	/**
+	 * Realiza la suma de dos números.
+	 * 
+	 * @param x
+	 *            Primer número.
+	 * @param y
+	 *            Segundo número.
+	 * @return total Suma de los números
+	 */
+	public static int suma(int x, int y) {
+		int total = (x + y); // auxiliar para guardar la operación en una
+								// variable
+		return total;
 	}
 
-	public int getNum1() {
-		return num1;
+	/**
+	 * Realiza la resta de dos números.
+	 * 
+	 * @param x
+	 *            Primer número.
+	 * @param y
+	 *            Segundo número.
+	 * @return total Resta de los números.
+	 */
+	public static int resta(int x, int y) {
+		int total = (x - y); // auxiliar para guardar la operación en una
+								// variable
+		return total;
 	}
 
-	public void setNum1(int num1) {
-		this.num1 = num1;
+	/**
+	 * Realiza la multiplicación de dos números.
+	 * 
+	 * @param x
+	 *            Primer número.
+	 * @param y
+	 *            Segundo número.
+	 * @return total Multiplicación de los números.
+	 */
+	public static int multiplicacion(int x, int y) {
+		int total = (x * y); // auxiliar para guardar la operación en una
+								// variable
+		return total;
+
+	}
+
+	/**
+	 * Realiza la división de dos números.
+	 * 
+	 * @param x
+	 *            Primer número.
+	 * @param y
+	 *            Segundo número.
+	 * @return total División de los números.
+	 */
+	public static int division(int x, int y) {
+		int total = (x / y); // auxiliar para guardar la operación en una
+								// variable
+		return total;
+
 	}
 
 }
